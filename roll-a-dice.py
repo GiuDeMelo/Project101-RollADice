@@ -3,11 +3,9 @@ import random
 
 no = random.randint(1,6)
 
-def yn(inp):
-    #y
-    #n
-    print("teste")
-    
+response = "y"
+while response == "y":
+    no = random.randint(1,6)
 
 if no == 1:
     print("")
@@ -58,4 +56,4 @@ if no == 6:
     print("[-----]")
 
 print("")
-inp = input("Pressione Y para jogar novamente e N para sair: ")
+response = input("Pressione Y para jogar novamente e N para sair: ")
